@@ -1,0 +1,87 @@
+.item-modal {
+ .modal {
+  background: rgba(38, 42, 54, 0.9) !important;
+  backdrop-filter: blur(20px) !important;
+  background: radial-gradient(98.5% 98.5% at 50% 26.28%, #FFFFFF 0%, #B0EAD4 100%);
+
+  .modal-body {
+   text-align: center;
+  }
+
+  .modal-lg {
+   max-width: 700px;
+
+   .modal-content {
+    background: radial-gradient(98.5% 98.5% at 50% 26.28%, #FFFFFF 0%, #B0EAD4 100%);
+    border-radius: 24px;
+    padding: 30px 0;
+
+    .modal-header {
+     border-bottom: none;
+
+     .btn-close {
+      position: absolute;
+      right: 24px;
+      bottom: auto;
+      top: 20px;
+      border: 2px solid var(--primary-color);
+      border-radius: 100%;
+      width: 35px;
+      height: 35px;
+     }
+    }
+
+    .modal-body {
+
+     h5 {
+      padding: 40px 0;
+      letter-spacing: 0;
+      font-size: 26px;
+      color: var(--primary-color);
+      position: relative;
+
+      &::after {
+       content: '';
+       position: absolute;
+       width: 48px;
+       height: 2px;
+       background-color: var(--primary-color);
+       bottom: 0;
+       margin-bottom: 0;
+       top: auto;
+       left: 0;
+       right: 0;
+       margin: 0 auto;
+      }
+     }
+
+     h4 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #233163;
+      text-transform: uppercase;
+      width: 80%;
+      margin: 35px auto 35px;
+      letter-spacing: 2px;
+     }
+
+     p {
+      margin: 35px 0;
+      font-size: 20px;
+      width: 80%;
+      margin: 0 auto 40px;
+     }
+
+    a {
+       &.btn {
+         @include fillbutton;
+       }
+      }
+    }
+   }
+  }
+ }
+}
+
+ 

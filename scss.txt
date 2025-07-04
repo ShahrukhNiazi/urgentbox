@@ -1,0 +1,6 @@
+cd old/scss
+
+sass --watch main.scss:../css/all.css
+
+
+ sass --watch scss/main.scss:css/all.css
