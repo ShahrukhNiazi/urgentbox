@@ -87,7 +87,7 @@
   <p>subscribe and save 10% on your favorite packages <a href="#">shop now</a></p>
  </div>
  <div class="container-fluid">
-  <div class="row align-items-center">
+  <div class="row align-items-center justify-content-center">
    <div class="header-item item-left">
     <div class="logo">
      <a href="index.php"><img src="images/logo.svg" alt=""></a>
